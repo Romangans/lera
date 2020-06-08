@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'progresspixel';
-  src: url('progresspixel.ttf');
+  src: url(fonts/progresspixel.ttf) format('ttf');
+  font-style: normal;
 }
 
 body {
