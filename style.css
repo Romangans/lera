@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'progresspixel';
+  src: ('progresspixel.ttf');
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  border: 1px solid black;
+  padding: 0 150px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  font-family: 'progresspixel';
+  font-size: 20px;
+  line-height: 57px;
+  color: #FAA4C7;
+  text-decoration: none;
+}
+
+.menu:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.link-game {
+  width: 176px;
+  height: 40px;
+  margin-top: 9px;
+  text-decoration: none;
+  border-radius: 40px;
+  background: #63D5FA;
+  text-align: center;
+  font-family: 'progresspixel';
+  font-size: 20px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.link-game:hover {
+  background: #FAA4C7;
+}
+
+/* ------------------ */
+main {
+  background-color: #FAA4C7;
+  padding: 0 190px 0;
+}
+
+.donut {
+  text-align: center;
+  position: relative;
+  background-image: url(imgweb/cloud.svg);
+  background-size: 100%;
+}
+
+.flyin-span {
+  position: absolute;
+  width: 674px;
+  height: 150px;
+  left: 175px;
+  top: 214px;
+  font-family: 'progresspixel';
+  font-size: 84px;
+  line-height: 175px;
+  text-transform: uppercase;
+  color: #63D5FA;
+}
+
+.important-span {
+  font-family: 'progresspixel';
+  font-size: 42px;
+  line-height: 71px;
+  color: #FFF100;
+}
+
+.flyingdonut-rect {
+  width: 327px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 15px 55px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.flyingdonut-span {
+  font-family: 'progresspixel';
+  font-size: 32px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #63D5FA;
+
+}
+
+.important-description1 {
+  display: block;
+  margin-top: 20px;
+  width: 600px;
+  font-family: 'progresspixel';
+  font-size: 20px;
+  line-height: 41px;
+  color: #FFFFFF;
+  float: right;
+}
+
+.important-description2 {
+  display: block;
+  margin-top: 50px;
+  width: 600px;
+  font-family: 'progresspixel';
+  font-size: 20px;
+  line-height: 41px;
+  color: #FFFFFF;
+  float: right;
+}
+
+.important-description3 {
+  display: block;
+  margin-top: 20px;
+  width: 600px;
+  font-family: 'progresspixel';
+  font-size: 19px;
+  line-height: 41px;
+  color: #FFFFFF;
+  float: right;
+}
+
+/* ---------------- */
+
+.screenshots-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.screen-span {
+  font-family: 'progresspixel';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 71px;
+  color: #FFF100;
+}
+
+.screenshots {
+  margin: 0;
+  width: 330px;
+  height: 330px;
+  border: 4px solid #FFFFFF;
+  border-radius: 30px;
+}
+
+.screenshots:nth-child(1) {
+  background-image: url(imgweb/1.jpg);
+  background-size: 100%;
+}
+
+.screenshots:nth-child(2) {
+  background-image: url(imgweb/2.jpg);
+  background-size: 100%;
+}
+
+.screenshots:nth-child(3) {
+  background-image: url(imgweb/3.jpg);
+  background-size: 100%;
+}
+
+.link-game2 {
+  margin: 90px 395px;
+  width: 279px;
+  height: 87px;
+  display: inline-block;
+  text-align: center;
+  line-height: 85px;
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'progresspixel';
+  font-size: 40px;
+  background: #63D5FA;
+  border-radius: 80px;
+}
+
+.link-game2:hover {
+  background-color: #fff;
+  color: #FAA4C7;
+}
+
+.developer-span {
+  font-family: 'progresspixel';
+
+  font-size: 42px;
+  line-height: 71px;
+
+  color: #FFF100;
+
+}
+
+footer {
+  padding: 0 190px 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-span {
+  font-family: 'progresspixel';
+  font-size: 11px;
+  line-height: 19px;
+  color: #FAA4C7;
+  margin: 32px 0 32px 0;
+
+}
