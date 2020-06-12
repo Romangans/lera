@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'progresspixel';
+  src: url('progresspixel.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #F662B8;
+}
+
+header {
+  padding: 2px 150px 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+
+.link-game {
+  width: 176px;
+  height: 40px;
+  margin-top: 5px;
+  text-decoration: none;
+  border-radius: 40px;
+  background: #63D5FA;
+  text-align: center;
+  font-family: 'progresspixel';
+  font-size: 20px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.link-game:hover {
+  background: #FAA4C7;
+}
+
+#defaultCanvas0{
+  margin: 20px 30%;
+}
